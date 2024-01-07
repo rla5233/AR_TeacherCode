@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{D9F9A4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG", "TextRPG\TextRPG.vcxproj", "{93BF693A-2BC7-43FA-B5C2-5D549842F6A9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Galaga", "Galaga\Galaga.vcxproj", "{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleEngine", "ConsoleEngine\ConsoleEngine.vcxproj", "{225E6AE2-9E20-460B-B91E-A2212C48992A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,12 +29,30 @@ Global
 		{93BF693A-2BC7-43FA-B5C2-5D549842F6A9}.Release|x64.Build.0 = Release|x64
 		{93BF693A-2BC7-43FA-B5C2-5D549842F6A9}.Release|x86.ActiveCfg = Release|Win32
 		{93BF693A-2BC7-43FA-B5C2-5D549842F6A9}.Release|x86.Build.0 = Release|Win32
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Debug|x64.ActiveCfg = Debug|x64
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Debug|x64.Build.0 = Debug|x64
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Debug|x86.Build.0 = Debug|Win32
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Release|x64.ActiveCfg = Release|x64
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Release|x64.Build.0 = Release|x64
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Release|x86.ActiveCfg = Release|Win32
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA}.Release|x86.Build.0 = Release|Win32
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Debug|x64.ActiveCfg = Debug|x64
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Debug|x64.Build.0 = Debug|x64
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Debug|x86.ActiveCfg = Debug|Win32
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Debug|x86.Build.0 = Debug|Win32
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Release|x64.ActiveCfg = Release|x64
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Release|x64.Build.0 = Release|x64
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Release|x86.ActiveCfg = Release|Win32
+		{225E6AE2-9E20-460B-B91E-A2212C48992A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{93BF693A-2BC7-43FA-B5C2-5D549842F6A9} = {93586014-3141-4F31-83AD-E8541283F07D}
+		{A8A91973-8ED6-47B9-8716-676EF1F6DBFA} = {93586014-3141-4F31-83AD-E8541283F07D}
+		{225E6AE2-9E20-460B-B91E-A2212C48992A} = {D9F9A403-D1C5-4700-AD82-900A14669A46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8B9738C-2974-402D-98B5-09FB11D3D919}
