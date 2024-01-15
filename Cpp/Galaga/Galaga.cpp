@@ -25,12 +25,11 @@ int main()
     }
 
     {
-        const int MonsterCount = 7;
+        const int MonsterCount = 5;
         for (int i = 0; i < MonsterCount; i++)
         {
             Monster* NewObject = EngineCore.CreateObject<Monster>(GalagaUpdateType::Monster, GalagaRenderType::Monster);
-            NewObject->SetPos({ (2 * i) % EngineCore.Screen.GetScreenX() + 3, 3 });
-
+            NewObject->SetPos({ (2 * i) % EngineCore.Screen.GetScreenX(), 3 });
             NewObject->SetRenderChar('&');
         }
     }

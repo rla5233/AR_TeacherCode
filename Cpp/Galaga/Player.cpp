@@ -42,14 +42,13 @@ void Player::Update()
 	case 'd':
 		AddPos(Right);
 		break;
-	case 'Q':
-	case 'q':
+	case ' ':
 	{
 		Bullet* NewBullet = GetCore()->CreateObject<Bullet>(GalagaUpdateType::Bullet, GalagaRenderType::Bullet);
 		NewBullet->SetPos(GetPos());
 		break;
 	}
-	case '1':
+	case '0':
 		GetCore()->EngineEnd();
 		break;
 	default:
